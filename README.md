@@ -1,11 +1,8 @@
 It simply my answers to CtCI (Cracking the Coding Interviews book by Gayle Laakmann McDowell)
 
-
-Docker container with Python 3 and juypter notebook
-Build docker image
-docker build -t kd/mypy:latest .
+#How to run python inside disposable Docker container
+Step 1 - Build docker image
 docker build -t kd/mypy:withtmux .
 
-#Mount program directory and run disposable container in interactive mode
-docker run --rm -it -v $(PWD):/data kd/mypy:latest /bin/bash
+Step 2 - Just run it - Mount program directory and run disposable container in interactive mode
 docker run --rm -it -v $(PWD):/data kd/mypy:withtmux /bin/bash
