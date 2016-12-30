@@ -18,4 +18,7 @@ def count_pairs(l,s): #Takes list l and sum s
 
 #Let's test the function
 print(count_pairs([1,3,2,2], 4))
+Expected output - 2 pairs (1,3) and (2,2)
+
 print(count_pairs([1,2,3,4,5],6))    #THERE IS A BUG IN THIS CODE, THAT'S WHY IT TRAVERSE ONLY ALTERNATIVE ITEMS IN LIST l`
+#Expected output - 2 pairs (1,5) and (2,4)

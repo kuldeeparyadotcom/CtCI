@@ -1,4 +1,4 @@
-It simply my answers to CtCI (Cracking the Coding Interviews book by Gayle Laakmann McDowell)
+It's simply my answers to CtCI by Gayle Laakmann McDowell.
 
 #How to run python inside disposable Docker container
 Step 1 - Build docker image
